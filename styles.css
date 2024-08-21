@@ -84,11 +84,15 @@ table th {
     margin-top: 0;
 }
 
-.projects img {
+.flashcard img.project-img {
     width: 100%;
+    height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
+    object-fit: cover; /* Ensures the image covers the entire width without stretching */
+    max-height: 200px; /* Limits the height to avoid oversized images */
 }
+
 
 footer {
     text-align: center;
